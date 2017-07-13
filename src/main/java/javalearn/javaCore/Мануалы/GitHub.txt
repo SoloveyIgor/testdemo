@@ -1,0 +1,19 @@
+						создание и заливка
+
+1.	git config --global user.name "SoloveyIgor"
+2.	git config --global user.email "soloveyigor@live.ru"
+3.	git config --list	//info about config
+4.	git config		//info-setting
+5.	git help comit		//помощь для комита
+6.	git cd C:/Users/Igor/IdeaProjects/FirstSpring
+7.	git init
+8.	git status		// состояние репозитория
+9.	git add . 		// добавить все
+10.	git commit -m "Spring"	// закомитить
+11.	git remote add origin <адрес репозитория>	// подключаем удаленный реп
+12.	git push -u origin master	залить на удаленный реп
+				
+					
+				скачивание
+1.	git cd C:	//	заходим в дирикторию
+2.	git clone (адрес репозитория)

@@ -3,8 +3,7 @@
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
 <beans>
-    <bean id= "robot" class="javalearn.spring178.robot.RobotConstructor">
+   <bean id="1" class="webproject.app.Start"></bean>
 
-    </bean>
 
 </beans>

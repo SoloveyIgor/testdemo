@@ -1,0 +1,18 @@
+<bean id="body" class="javalearn.spring178.robot.BodySony" />
+
+   <bean name="start" class="javalearn.spring178.robot.Robot" >
+        <constructor-arg  index="0">
+            <bean class="javalearn.spring178.robot.HeadSony"/>
+        </constructor-arg>
+       <constructor-arg  index="1" ref="body"/>
+
+   </bean>
+
+   <bean id="start" class="javalearn.spring178.robot.Robot">
+   <constructor-arg index="0" ref="headsony"/>
+   <constructor-arg index="1" ref="bodysony"/>
+   </bean>
+
+   <bean id="headsony" class="javalearn.spring178.robot.HeadSony"/>
+
+   <bean id="bodysony" class="javalearn.spring178.robot.BodySony"/>

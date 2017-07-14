@@ -3,8 +3,23 @@
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
 <beans>
-    <bean id= "robot" class="javalearn.spring178.robot.RobotConstructor">
+    <bean id="start" class="javalearn.spring178.robot.Robot">
+        <constructor-arg index="0" ref="headsony"/>
+        <constructor-arg index="1" ref="bodysony"/>
 
+        <property name="head" ref="headasus"/>
+        <!--<property name="body" ref="bodysony"/>-->
+        <!--<property name="name" value="first"/>-->
     </bean>
 
+    <bean id="headsony" class="javalearn.spring178.robot.HeadSony"/>
+
+    <bean id="headasus" class="javalearn.spring178.robot.HeadAsus"/>
+
+    <bean id="bodysony" class="javalearn.spring178.robot.BodySony"/>
+
+
+
+
 </beans>
+

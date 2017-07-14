@@ -10,7 +10,7 @@ public class Start {
 
         ApplicationContext aContext = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
-        Robot robot = (Robot) aContext.getBean("1") ;
+        Robot robot = (Robot) aContext.getBean("start") ;
 
         robot.action();
     }

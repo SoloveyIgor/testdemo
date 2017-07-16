@@ -1,4 +1,4 @@
-package javaCore.inout;
+package javalearn.javaCore.inout;
 
 import java.util.Scanner;
 

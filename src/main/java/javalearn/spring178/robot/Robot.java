@@ -9,6 +9,9 @@ public class Robot {
     private Body body;
     private String name;
 
+    public Robot() {
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -16,6 +19,7 @@ public class Robot {
     public Robot(Head head, Body body){
         this.head = head;
         this.body = body;
+
     }
 
     public Head getHead() {
@@ -38,5 +42,13 @@ public class Robot {
         head.think();
         body.live();
         System.out.println("hello from robo");
+    }
+
+    public void action1(){
+        System.out.println("action1");
+    }
+
+    public void init(){
+        System.out.println("init");
     }
 }

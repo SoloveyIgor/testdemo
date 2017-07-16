@@ -2,14 +2,22 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
         "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
-<beans>
-    <bean id="start" class="javalearn.spring178.robot.Robot">
+
+<beans default-init-method="init"
+        default-lazy-init="true">
+
+    <import resource="cs.xml"/>
+
+    <bean id="start" class="javalearn.spring178.robot.Robot" depends-on="account">
         <constructor-arg index="0" ref="headsony"/>
         <constructor-arg index="1" ref="bodysony"/>
 
+
         <property name="head" ref="headasus"/>
+
         <!--<property name="body" ref="bodysony"/>-->
         <!--<property name="name" value="first"/>-->
+
     </bean>
 
     <bean id="headsony" class="javalearn.spring178.robot.HeadSony"/>
@@ -19,7 +27,7 @@
     <bean id="bodysony" class="javalearn.spring178.robot.BodySony"/>
 
 
-
+<bean id="second" class="javalearn.spring178.robot.Robot" scope="prototype"/>
 
 </beans>
 

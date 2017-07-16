@@ -1,7 +1,23 @@
 package webproject.app;
 
-/**
- * Created by Igor on 14.07.2017.
- */
+import javax.annotation.PostConstruct;
+
 public class Account {
+
+    private int id = 1;
+
+    public Account()
+    {
+
+        initAccount();
+    }
+
+
+
+    public void initAccount(){
+        System.out.println(id);
+
+    }
+
+
 }

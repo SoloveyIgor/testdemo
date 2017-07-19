@@ -1,4 +1,4 @@
-package javalearn.javaCore.forwhile;
+package javalearn.javaCore.demoForWhile;
 
 public class ForWhile {
     public static int i =9;

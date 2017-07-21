@@ -1,6 +1,4 @@
-package javalearn.javaCore.demoString;
-
-import java.util.Properties;
+package javalearn.javaCore.string;
 
 public class StringDemo {
     public static void main(String[] args) {

@@ -1,7 +1,29 @@
 package javalearn.javaCore.demoObject;
 
-/**
- * Created by Igor on 19.07.2017.
- */
 public class DemoObject {
+    public String name = "W";
+
+//    public String getName() {
+//        return name;
+//    }
+
+
+    @Override
+    public String toString() {
+        return "DemoObject{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+
+        return name == name;
+    }
+
+    @Override
+    public int hashCode() {
+
+        return name.hashCode();
+    }
 }

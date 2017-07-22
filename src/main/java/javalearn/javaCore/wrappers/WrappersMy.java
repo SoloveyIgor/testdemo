@@ -12,6 +12,11 @@ public class WrappersMy {
         catch(NumberFormatException e){
             System.out.println("Wrong format" + e);
         }
-        
+        int i = 200;
+        String d = Integer.toString(i);
+        String e = String.valueOf(i);
+        String f = "" + i; //not good
     }
+    Integer iobj = 100;
+    Integer iobj2 = new Integer(100);
 }

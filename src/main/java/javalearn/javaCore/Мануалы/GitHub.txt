@@ -5,7 +5,7 @@
 3.	git config --list	//info about config
 4.	git config		//info-setting
 5.	git help comit		//помощь для комита
-6.	git cd C:/Users/Igor/IdeaProjects/FirstSpring
+6.	 cd C:/Users/Igor/IdeaProjects/FirstSpring
 7.	git init
 8.	git status		// состояние репозитория
 9.	git add . 		// добавить все
@@ -13,7 +13,12 @@
 11.	git remote add origin <адрес репозитория>	// подключаем удаленный реп
 12.	git push -u origin master	залить на удаленный реп
 				
-					
+	
+
+	git cd C:/Users/Igor/IdeaProjects/testdemo
+
+				
 				скачивание
 1.	git cd C:	//	заходим в дирикторию
 2.	git clone (адрес репозитория)
+

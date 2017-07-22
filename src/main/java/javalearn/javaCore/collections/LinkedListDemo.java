@@ -19,6 +19,7 @@ public class LinkedListDemo {
         linkedList.remove(5);
         System.out.println("Size " + linkedList.size());
         fillList(linkedList,9);
+        System.out.printf("llllllllll");
     }
 
     static public void fillList(List<Integer> list, int count) {

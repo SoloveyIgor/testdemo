@@ -6,6 +6,8 @@ public class StringDemo {
         System.out.println(str);
         System.out.println("-------------");
 
+        
+
 //        System.out.println(str.substring(10));
 //        System.out.println(str.substring(10,16));
 //        System.out.println();

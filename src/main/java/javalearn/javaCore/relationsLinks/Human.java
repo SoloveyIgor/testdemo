@@ -1,4 +1,4 @@
-package javaCore.relationsLinks;
+package javalearn.javaCore.relationsLinks;
 
 /**
  * Created by Igor on 11.07.2017.

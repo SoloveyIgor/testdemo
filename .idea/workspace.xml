@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ac31d9-4815-4e2b-babf-9a2d400deab6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/javalearn/javaCore/collections/LinkedListDemo.class" afterPath="$PROJECT_DIR$/target/classes/javalearn/javaCore/collections/LinkedListDemo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/relationsLinks/Human.java" afterPath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/relationsLinks/Human.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/relationsLinks/Men.java" afterPath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/relationsLinks/Men.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/relationsLinks/Women.java" afterPath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/relationsLinks/Women.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/string/StringDemo.java" afterPath="$PROJECT_DIR$/src/main/java/javalearn/javaCore/string/StringDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -188,7 +183,7 @@
       </PATH>
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -948,7 +943,7 @@
       <workItem from="1500624601781" duration="6333000" />
       <workItem from="1500645348154" duration="198000" />
       <workItem from="1500718805791" duration="3124000" />
-      <workItem from="1500837138250" duration="1767000" />
+      <workItem from="1500837138250" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="llllllll">
       <created>1500722438834</created>
@@ -957,14 +952,21 @@
       <option name="project" value="LOCAL" />
       <updated>1500722438835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="llllllll">
+      <created>1500838955492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500838955493</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98163000" />
+    <option name="totallyTimeSpent" value="98215000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

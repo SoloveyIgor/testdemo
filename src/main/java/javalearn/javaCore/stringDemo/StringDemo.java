@@ -6,7 +6,9 @@ public class StringDemo {
         System.out.println(str);
         System.out.println("-------------");
 
-        
+        String s = "1";
+        int i = Integer.valueOf(s) ;
+        System.out.println(i);
 
 //        System.out.println(str.substring(10));
 //        System.out.println(str.substring(10,16));
